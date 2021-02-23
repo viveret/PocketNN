@@ -1,0 +1,196 @@
+<resources>
+    <string name="app_name">Pocket N²</string>
+    <string name="title_activity_sandbox">Pocket N² - %s</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="optimization_method_lbl">Optimization Method:</string>
+    <string name="batch_size_lbl">Batch Size:</string>
+    <string name="epochs_lbl">Epochs:</string>
+    <string name="outputs_lbl">Fit to desired outputs?</string>
+    <string name="title_template_nn">Pocket N² - Template Projects</string>
+
+    <string name="title_prefs_in_progress">Settings are currently being developed. Stay tuned!</string>
+    <string name="learn_more_about_ml">
+        <![CDATA[
+basics:<h1>The Basics</h1><p>The fundamentals of AI and Machine Learning</p>
+----------
+neural_networks:<h1>What are Neural Networks?</h1><p>Learn more about neural networks</p>
+----------
+neural_layers:<h1>Neural Layers</h1><p>Learn more about neural layers</p>
+----------
+neurons:<h1>Activation Layers & Neurons</h1><p>Learn more about activation layers and neurons</p>
+----------
+layer_types:<h1>Layer Types</h1><p>Learn about the different neural layer types</p>
+]]></string>
+    <string name="learn_more_about_app"><![CDATA[
+libraries:<h1>Libraries Used</h1><p>What tools and libraries were used to make Pocket N²</p>
+----------
+licenses:<h1>Licenses</h1><p>View usage terms and conditions</p>
+-----------
+contact:<h1>Contact</h1><p>Comments, questions, or recommendations?</p>
+----------
+tiny_dnn:<h1>tiny-dnn</h1><p>Learn about the tiny-dnn, the library used for Pocket N²\'s neural networks</p>
+]]></string>
+    <string name="title_libraries_used">Libraries Used</string>
+    <string name="content_libraries_used">Tiny-Dnn is the only library used</string>
+    <string name="title_licenses">Licenses</string>
+    <string name="title_contact">Contact</string>
+    <string name="content_licenses"><![CDATA[
+<b>Pocket N²:</b> Free to use on Android. Usage means agreeing to the following:<br />
+ - The creator of this app is not liable for misuse or damage resulting from use.<br />
+<b>Tiny-Dnn:</b> (The 3-Clause BSD License) <br />
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+]]></string>
+    <string name="content_contact"><![CDATA[
+You can e-mail me at <a href="mailto:viveret.amant.official@gmail.com">viveret.amant.official@gmail.com</a>
+]]></string>
+    <string name="title_drawer_other_stuff">Other Stuff</string>
+    <string name="msg_in_development">*In development*\n(this is an early version of a work in progress)</string>
+    <string name="batch_size_disclaimer">* Leave at 1 unless changing is necessary</string>
+
+    <string name="training_waiting_0">Training, please wait</string>
+    <string name="error_predicting_empty_input_msg">Could not predict: empty input(s)</string>
+    <string name="predict_title">Predict Output from Input</string>
+    <string name="predict_subtitle">Predict the most likely output for a given input</string>
+    <string name="predict">Predict</string>
+    <string name="new_layer_name_title">Name of New Network</string>
+    <string name="new_layer_name_subtitle">What is the name of the new network? (Empty for default)</string>
+    <string name="create_lbl">Create</string>
+    <string name="email">viveret.amant.official@gmail.com</string>
+    <string name="help_request_subject">Pocket N2 - Help Requested</string>
+    <string name="help_request_intent_lbl">Contact Pocket N2</string>
+    <string name="help_request_starter_body">I have a question about Pocket N2…</string>
+    <string name="help_request_button_lbl">Send e-Mail</string>
+    <string name="from_scratch">From Scratch</string>
+    <string name="current_neural_network_title">Current Neural Network</string>
+    <string name="train">Train</string>
+    <string name="design">Design [TBD]</string>
+    <string name="visualize">Visualize [TBD]</string>
+    <string name="share">Share [TBD]</string>
+    <string name="send">Send [TBD]</string>
+    <string name="pn2pedia">Pn2Pedia - share neural networks [TBD]</string>
+    <string name="sandbox_mode">Sandbox</string>
+    <string name="challenge_mode">Challenges</string>
+    <string name="settings">Settings</string>
+    <string name="more_about_machine_learning">More About Machine Learning</string>
+    <string name="about_pocket_n2">About Pocket N²</string>
+    <string name="done">Done</string>
+    <string name="pocket_neural_network">Pocket Neural Network</string>
+    <string name="close">Close</string>
+    <string name="messages">Messages</string>
+    <string name="train_binary_xor">XOR</string>
+    <string name="train_binary_and">AND</string>
+    <string name="train_binary_or">OR</string>
+    <string name="train_binary_manual">Manual</string>
+    <string name="training_method">Training Method</string>
+    <string name="title_choose_scenario">Select Scenario</string>
+    <string name="mnist">MNIST Training</string>
+    <string name="online_train_data_message">%data_name% is online data that must be downloaded from %data_url%\n\nDownload now?</string>
+    <string name="yes">Yes</string>
+    <string name="yesAndSave">Yes (and Save)</string>
+    <string name="no">No</string>
+    <string name="downloading_template">Downloading %perc%% %url%</string>
+    <string name="mnist_data_name">MNIST database of handwritten digits</string>
+    <string name="data_method_canvas">Canvas</string>
+    <string name="predict_method">Prediction Input Method</string>
+    <string name="title_data_viewer">Data Viewer</string>
+    <string name="title_fragment_data_view_tostring">String Representation</string>
+    <string name="title_not_supported">View Not Supported</string>
+    <string name="title_fragment_data_view_distribution">Probability Distribution</string>
+    <string name="title_fragment_data_view_idx_image">Idx Image View</string>
+    <string name="title_browse_data_list">Browse Data</string>
+    <string name="title_data_browse_detail">Data Details</string>
+    <string name="title_browse_data">Browse Data</string>
+    <string name="title_fragment_data_view_binary_gate">Binary Gate</string>
+    <string name="title_leaving">Quit Now?</string>
+    <string name="msg_leaving">You can return to the main menu or quit now.</string>
+    <string name="msg_canvas">Touch to draw</string>
+    <string name="fit_to_value_lbl">Fit to value:</string>
+    <string name="camera_color_mode_label">Color Mode</string>
+    <string name="camera_color_invert_label">Invert Color</string>
+    <string name="cmu_movie_summary_corpus">CMU Movie Summary Corpus</string>
+    <string name="cmu_movie_summary_corpus_data_name">dataset of movie plot summaries and associated metadata</string>
+    <string name="movie_summary_category"><![CDATA[Movie Summary & Category]]></string>
+    <string name="title_fragment_data_view_movie_category">Movie Category</string>
+    <string name="online_movie_reviews">Online Movie Reviews</string>
+    <string name="online_moview_reviews_data_name">dataset of movie reviews and sentiment scores</string>
+    <string name="msg_retry_get_scenario">An issue was encountered while preparing this scenario. You may retry the operation or cancel to return.</string>
+    <string name="title_retry_get_scenario">Issue with scenario, retry?</string>
+    <string name="title_fragment_data_view_review_sentiment">Review Sentiment</string>
+    <string name="title_fragment_scenario_text_sentiment">Text Sentiment</string>
+    <string name="outputs_visualization">Outputs:</string>
+    <string name="in_feature_maps">Feature Maps</string>
+    <string name="cifar10_classification">Cifar10 Classification</string>
+    <string name="time_left_unknown">Estimating time remaining…</string>
+    <string name="save">Save</string>
+    <string name="discard">Discard Changes</string>
+    <string name="save_format_lbl">Save format:</string>
+    <string name="save_what_lbl">Save what:</string>
+    <string name="layer_type_label">Layer Type:</string>
+    <string name="data_method_lbl">Data Method</string>
+    <string name="model">Model</string>
+    <string name="weights_and_model">Weights and Model</string>
+    <string name="binary">Binary</string>
+    <string name="portable_binary">Portable Binary</string>
+    <string name="json">JSON</string>
+    <string name="period">.</string>
+    <string name="slash">/</string>
+    <string name="weights">Weights</string>
+    <string name="title_dialog_save_progress">Saving, please wait</string>
+    <string name="title_dialog_save_result">Save succeeded</string>
+    <string name="select_neural_network_to_import">Select a Network to Import</string>
+    <string name="title_navigator">Navigator</string>
+    <string name="directory_lbl">Directory:</string>
+    <string name="file_name_lbl">File Name:</string>
+    <string name="file_extension_lbl">Extension:</string>
+    <string name="ellipsis">…</string>
+    <string name="save_path_lbl">Save To:</string>
+    <string name="rgx_natural_numbers">[1-9][0-9]*</string>
+    <string name="default_constructor">Default</string>
+    <string name="title_activity_challenge">Challenges</string>
+    <string name="title_activity_challenges">Pocket N² - Challenges</string>
+    <string name="challenge_mnist">Number Recognition</string>
+    <string name="challenge_mnist_desc">Determine what digit is in an image</string>
+    <string name="insert_layer">Insert Layer</string>
+    <string name="title_fragment_judge">Judge Neural Network</string>
+    <string name="give_up">Give Up</string>
+    <string name="judge_results">Judge Results</string>
+    <string name="title_fragment_data_view_cifar_image">CIFAR Image View</string>
+    <string name="challenge_cifar10_desc">32x32 colour images in 10 classes, with 6000 images per class.</string>
+    <string name="learn">Select Knowledge</string>
+    <string name="title_dialog_knowlege_source">Select knowledge from…</string>
+    <string name="title_dialog_knowlege_catalog">Knowledge Catalog</string>
+    <string name="title_from_file">Pocket N² - Open File</string>
+    <string name="site_title_com_lecun_yann">MNIST handwritten digit database, Yann LeCun, Corinna Cortes and Chris Burges</string>
+    <string name="title_judge_new_knowledge">Judge New Knowledge?</string>
+    <string name="msg_judge_new_knowledge">After selecting knowledge, you can judge how it performs to measure accuracy and responses to input.</string>
+    <string name="judge_training_title">Judge Training?</string>
+    <string name="judge_training_msg">This will determine the current neural network\'s accuracy based on your criteria</string>
+    <string name="hint_data_suite_title">Data Suite Title…</string>
+    <string name="title_minimized_dialogs">Minimized Dialogs</string>
+    <string name="action_minimize">Minimize</string>
+    <string name="action_stop">STOP</string>
+    <string name="action_gen_package">Generate Package</string>
+    <string name="package_size_lbl">Package Size:</string>
+    <string name="hint_package_size">Number of training items</string>
+    <string name="title_mnist_scenario_import">Import MNIST Data</string>
+    <string name="role_input">input</string>
+    <string name="role_input_labels">input labels</string>
+    <string name="role_fit_to">desired output</string>
+    <string name="role_fit_to_labels">desired output labels</string>
+    <string name="loading_msg">Loading, please wait</string>
+    <string name="percent_include_lbl">Percent to Load:</string>
+    <string name="rename">Rename</string>
+    <string name="clear_weights">Clear Weights</string>
+    <string name="new_name_label">New Name</string>
+    <string name="visualization_default_horizontal">Default (horizontal)</string>
+    <string name="visualization_default_vertical">Default (vertical)</string>
+    <string name="visualization_traditional">Traditional View</string>
+    <string name="visualization_educational">Educational View</string>
+    <string name="choose_visualization_method">Choose Visualization Method</string>
+    <string name="title_learn_more_about_app">Pocket N² - About this App</string>
+    <string name="title_learn_more_about_ml">Pocket N² - Learn About ML</string>
+    <string name="msg_no_items">No items in directory</string>
+</resources>

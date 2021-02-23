@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="version_17_1_12_summary"><![CDATA[
+version: 1.12\n
+versioncode: 17\n
+date: 2019-xx-xx\n
+message:\n
+    ]]></string>
+
+    <string name="version_16_1_11_summary"><![CDATA[
+version: 1.11\n
+versioncode: 16\n
+date: 2019-06-28\n
+message:\n
+ * Pinch to zoom on weight vizualizations\n
+ * Added CIFAR 10 (plane, cat, car?) template and data\n
+ * Dialogs can be minimized to tray\n
+ * Made neural network code open source at [https://github.com/viveret/kt-nn](https://github.com/viveret/kt-nn)\n
+ * Have ideas? Send me a message! My e-mail is [viveret.amant.official@gmail.com](mailto:viveret.amant.official@gmail.com)\n
+    ]]></string>
+
+    <string name="version_15_1_10a_summary"><![CDATA[
+version: 1.10a\n
+versioncode: 15\n
+date: 2019-05-14\n
+message:\n
+ * Fixed some bugs when downloading training data\n
+    ]]></string>
+
+    <string name="version_14_1_10_summary"><![CDATA[
+version: 1.10\n
+versioncode: 14\n
+date: 2019-05-03\n
+message:\n
+ * Updated add layer view\n
+ * Added challenge mode\n
+ * Added MNIST RNN 2 (better accuracy)\n
+    ]]></string>
+
+    <string name="version_13_1_9_summary"><![CDATA[
+version: 1.9\n
+versioncode: 13\n
+date: 2019-04-20\n
+message:\n
+ * Load networkModelWithWeights and saved weights from a file\n
+ * Bug fixes\n
+    ]]></string>
+
+    <string name="version_12_1_8_summary"><![CDATA[
+version: 1.8\n
+versioncode: 12\n
+date: 2019-04-14\n
+message:\n
+ * Updated icons\n
+ * Can browse cached data suites and values\n
+ * Can save networkModelWithWeights or weights to a file\n
+    ]]></string>
+
+    <string name="version_11_1_7_summary"><![CDATA[
+version: 1.7\n
+versioncode: 11\n
+date: 2019-04-09\n
+message:\n
+ * Added ability to stop training\n
+ * Bug fixes with layer visualization\n
+    ]]></string>
+
+    <string name="version_10_1_6_summary"><![CDATA[
+version: 1.6\n
+versioncode: 10\n
+date: 2019-04-08\n
+message:\n
+ * Smart filtering of scenarios and data methods based on current project\n
+ * Bug fixes\n
+    ]]></string>
+
+    <string name="version_9_1_5_summary"><![CDATA[
+version: 1.5\n
+versioncode: 9\n
+date: 2019-04-06\n
+message:\n
+ * Updated color scheme and graphics\n
+ * Added ability to visualize layer outputs and weights\n
+ * Some bug fixes and other tweaks\n
+    ]]></string>
+
+    <string name="version_8_1_4b_summary"><![CDATA[
+version: 1.4b\n
+versioncode: 8\n
+date: 2019-03-21\n
+message:\n
+ * Added changelog dialog on start\n
+    ]]></string>
+
+    <string name="version_7_1_4a_summary"><![CDATA[
+version: 1.4a\n
+versioncode: 7\n
+date: 2019-03-20\n
+message:\n
+ * Added camera and canvas input\n
+ * Bug fixes\n
+    ]]></string>
+
+    <string name="version_6_1_4_summary"><![CDATA[
+version: 1.4\n
+versioncode: 6\n
+date: 2019-03-16\n
+message:\n
+ * Added MNIST data set\n
+ * Added data browsing\n
+ * Bug fixes\n
+    ]]></string>
+
+    <string name="version_5_1_3a_summary"><![CDATA[
+version: 1.3a\n
+versioncode: 5\n
+date: 2019-02-03\n
+message:\n
+ * Fixed bug when entering sandbox\n
+    ]]></string>
+
+    <string name="version_4_1_3_summary"><![CDATA[
+version: 1.3\n
+versioncode: 4\n
+date: 2019-01-26\n
+message:\n
+ * Added better error messages\n
+ * Ability to save and view training and prediction results\n
+ * Bug fixes\n
+    ]]></string>
+
+    <string name="version_3_1_2_summary"><![CDATA[
+version: 1.2\n
+versioncode: 3\n
+date: 2018-10-12\n
+message:\n
+ * Training shows progress\n
+ * Added default inputs and outputs for training binary gate AI\n
+ * Bug fixes
+    ]]></string>
+
+    <string name="version_2_1_1_summary"><![CDATA[
+version: 1.1\n
+versioncode: 2\n
+date: 2018-10-04\n
+message:\n
+ * Ability to add layers\n
+ * More training optimization options\n
+ * Bug fixes
+    ]]></string>
+
+    <string name="version_1_1_0_summary"><![CDATA[
+version: 1.0\n
+versioncode: 1\n
+date: 2018-06-12\n
+message:\n
+ * First release
+    ]]></string>
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="action_settings">Settings</string>
+    <string name="action_from_scratch">From Scratch</string>
+    <string name="action_from_template">From Template</string>
+    <string name="action_home">Main Menu</string>
+    <string name="action_default_binary_and">Train as AND gate</string>
+    <string name="action_default_binary_or">Train as OR gate</string>
+    <string name="action_default_binary_xor">Train as XOR gate</string>
+    <string name="action_nn_messages">Messages</string>
+    <string name="action_keep_message">Keep</string>
+    <string name="action_train_method_short">Short Training</string>
+    <string name="action_train_method_regular">Regular Training</string>
+    <string name="action_train_method_long">Long Training</string>
+    <string name="action_train_binary_and">Train as AND</string>
+    <string name="action_train_binary_or">Train as OR</string>
+    <string name="action_train_binary_xor">Train as XOR</string>
+    <string name="action_quit">Quit</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_uncache">Remove from cache</string>
+    <string name="action_cache">Save to cache</string>
+    <string name="action_from_file">From a File</string>
+    <string name="action_knowledge_file">Select from file</string>
+    <string name="action_knowledge_catalog">Select from catalog</string>
+    <string name="action_project_actions">Project Actions</string>
+</resources>

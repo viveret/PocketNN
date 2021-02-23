@@ -1,0 +1,13 @@
+<resources>
+    <string name="hint_batch_size">Number of samples per parameter update</string>
+    <string name="hint_epochs">Number of training epochs</string>
+    <string name="hint_inputs">A comma separated list of inputs</string>
+    <string name="hint_outputs">A comma separated list of outputs</string>
+    <string name="hint_predict">List of comma separated numbers…</string>
+    <string name="hint_no_data">No Data Available.\nTrain to gather data.</string>
+    <string name="nmaps_hint">TODO</string>
+    <string name="factor_hint">TODO</string>
+    <string name="hint_directory">Directory</string>
+    <string name="hint_name">Project Name</string>
+    <string name="hint_extension">ext</string>
+</resources>

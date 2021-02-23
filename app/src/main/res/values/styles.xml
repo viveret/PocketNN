@@ -1,0 +1,49 @@
+<resources>
+    <!-- http://www.color-hex.com/color-palette/39273
+     http://www.fon.hum.uva.nl/praat/manual/IDX_file_format.html
+     -->
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.ErrorTitle" parent="android:Widget.TextView">
+        <item name="android:textColor">#ff0000</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.ErrorBody" parent="TextAppearance.AppCompat.Subhead">
+        <item name="android:textColor">#ff0000</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.Citrus">
+        <item name="colorButtonNormal">@color/colorButtonNormal</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.CitrusLayout">
+        <item name="android:background">@color/colorButtonNormal</item>
+    </style>
+
+    <style name="AppTheme.CitrusDialog" >
+        <item name="colorPrimary">@color/colorSecondary</item>
+        <item name="colorPrimaryDark">@color/colorSecondaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+</resources>

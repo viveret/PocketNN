@@ -1,0 +1,66 @@
+{
+  "name": "Pocket Neural Network",
+  "version": 1,
+  "packages": [
+    {
+      "id": "45b98b47-69a0-4405-b3ca-6f91887a9d61",
+      "host": "08feb736-7aa5-11e9-8f9e-2a86e4085a59",
+      "title": "MNIST",
+      "summary": "MNIST database of handwritten digits",
+      "format": "44f43102-3054-4602-a10c-7f3c0d8cd3f7",
+      "encrypted": false,
+      "files": [
+        {
+          "endpoint": "exdb/mnist/train-images-idx3-ubyte.gz",
+          "id": "629ccf42-4140-11e9-b210-d663bd873d93",
+          "role": "Input"
+        },
+        {
+          "endpoint": "exdb/mnist/train-labels-idx1-ubyte.gz",
+          "id": "629cd79e-4140-11e9-b210-d663bd873d93",
+          "role": "FitTo"
+        }
+      ]
+    },
+    {
+      "id": "bd615b76-503d-11e9-8647-d663bd873d93",
+      "host": "bd615b76-503d-11e9-8647-d663bd873d93",
+      "title": "Online Movie Reviews",
+      "summary": "MNIST database of dataset of movie reviews and sentiment scores",
+      "format": "bd6162ba-503d-11e9-8647-d663bd873d93",
+      "encrypted": true,
+      "files": [
+        {
+          "endpoint": "master/data/preprocessed/reviews_labeled.txt",
+          "id": "629ccf42-4140-11e9-b210-d663bd873d93",
+          "role": "Input"
+        },
+        {
+          "endpoint": "master/data/preprocessed/reviews_labeled.txt",
+          "id": "629ccf42-4140-11e9-b210-d663bd873d93",
+          "role": "FitTo"
+        }
+      ]
+    },
+    {
+      "id": "17620240-5879-11e9-8647-d663bd873d93",
+      "host": "a304354a-4da5-11e9-8646-d663bd873d92",
+      "title": "Cifar10 Classification",
+      "summary": "Cifar10 Classification",
+      "format": "176200b0-5879-11e9-8647-d663bd873d93",
+      "encrypted": true,
+      "files": [
+        {
+          "endpoint": "viveret/kt-nn-data/raw/master/Cifar10/data_batch_2.cifar10?raw=true",
+          "id": "d53fc74a-6f10-11e9-a923-1681be663d3e",
+          "role": "Input"
+        },
+        {
+          "endpoint": "viveret/kt-nn-data/raw/master/Cifar10/data_batch_2.cifar10?raw=true",
+          "id": "d53fc74a-6f10-11e9-a923-1681be663d3e",
+          "role": "FitTo"
+        }
+      ]
+    }
+  ]
+}

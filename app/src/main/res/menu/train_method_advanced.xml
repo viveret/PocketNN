@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_train_method_short"
+          android:title="@string/action_train_method_short"/>
+    <item android:id="@+id/action_train_method_regular"
+          android:title="@string/action_train_method_regular"/>
+    <item android:id="@+id/action_train_method_long"
+          android:title="@string/action_train_method_long"/>
+</menu>

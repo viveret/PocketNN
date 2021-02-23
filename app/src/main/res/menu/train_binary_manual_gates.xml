@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_train_binary_and"
+          android:title="@string/action_train_binary_and"/>
+    <item android:id="@+id/action_train_binary_or"
+          android:title="@string/action_train_binary_or"/>
+    <item android:id="@+id/action_train_binary_xor"
+          android:title="@string/action_train_binary_xor"/>
+</menu>

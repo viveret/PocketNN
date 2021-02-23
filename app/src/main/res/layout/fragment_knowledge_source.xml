@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:showIn="@layout/activity_main"
+        tools:context="com.viveret.pocketn2.view.fragments.main.MainActivityFragment"
+        android:gravity="center">
+
+        <Button
+                android:id="@+id/action_knowledge_catalog"
+                android:text="@string/action_knowledge_catalog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/AppTheme.Citrus"/>
+
+        <Button
+                android:id="@+id/action_knowledge_file"
+                android:text="@string/action_knowledge_file"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/AppTheme.Citrus"/>
+</LinearLayout>

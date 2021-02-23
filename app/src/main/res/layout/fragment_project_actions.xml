@@ -1,0 +1,33 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.viveret.pocketn2.view.fragments.sandbox.ProjectActionsFragment"
+    android:gravity="center"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_horizontal_margin"
+    android:id="@+id/fragment_root">
+    <TextView
+        android:id="@+id/tvErrorBody"
+        style="@style/AppTheme.ErrorBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/TextAppearance.Large"
+        android:text="@string/action_project_actions"/>
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/scroll_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:flexWrap="wrap"
+        app:alignItems="stretch"
+        app:alignContent="stretch" />
+</LinearLayout>

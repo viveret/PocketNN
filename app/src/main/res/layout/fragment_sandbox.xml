@@ -1,0 +1,122 @@
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.viveret.pocketn2.view.fragments.sandbox.SandboxFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        app:layoutManager="LinearLayoutManager"
+        android:orientation="horizontal"/>
+
+    <RelativeLayout android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_margin="@dimen/fab_margin"
+                    android:visibility="gone">
+        <ImageButton
+                android:id="@+id/btnUp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:src="@android:drawable/arrow_up_float"
+                android:layout_centerHorizontal="true"
+                android:background="@android:color/transparent"
+                android:layout_margin="10dp"/>
+        <ImageButton
+                android:id="@+id/btnLeft"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:src="@android:drawable/arrow_up_float"
+                android:rotation="-90"
+                android:layout_below="@id/btnUp"
+                android:background="@android:color/transparent"
+                android:layout_marginRight="10dp"/>
+        <ImageButton
+                android:id="@+id/btnRight"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:src="@android:drawable/arrow_up_float"
+                android:rotation="90"
+                android:layout_toEndOf="@id/btnUp"
+                android:layout_below="@id/btnUp"
+                android:background="@android:color/transparent"
+                android:layout_marginLeft="10dp"/>
+        <ImageButton
+                android:id="@+id/btnDown"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:src="@android:drawable/arrow_up_float"
+                android:rotation="180"
+                android:layout_below="@id/btnLeft"
+                android:layout_centerHorizontal="true"
+                android:background="@android:color/transparent"
+                android:layout_margin="10dp"/>
+    </RelativeLayout>
+
+    <LinearLayout
+            android:id="@+id/editToolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:visibility="invisible"
+            android:orientation="vertical">
+
+        <ImageButton
+                android:id="@+id/fabEraseMode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fab_margin"
+                android:background="@android:color/black"
+                app:srcCompat="@android:drawable/ic_menu_revert"/>
+
+        <ImageButton
+                android:id="@+id/fabNodeMode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fab_margin"
+                android:background="@android:color/black"
+                app:srcCompat="@android:drawable/ic_menu_more"/>
+
+        <ImageButton
+                android:id="@+id/fabLayerMode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fab_margin"
+                android:background="@android:color/black"
+                app:srcCompat="@android:drawable/ic_menu_crop"/>
+
+        <ImageButton
+                android:id="@+id/fabEditHide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fab_margin"
+                android:background="@android:color/black"
+                app:srcCompat="@android:drawable/ic_media_play"/>
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabPredict"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="@dimen/fab_margin"
+            app:srcCompat="@drawable/ic_baseline_streetview_24"/>
+
+</RelativeLayout>

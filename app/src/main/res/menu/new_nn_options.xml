@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_from_template"
+        android:title="@string/action_from_template"/>
+    <item android:id="@+id/action_from_scratch"
+          android:title="@string/action_from_scratch"/>
+    <item android:id="@+id/action_from_file"
+        android:title="@string/action_from_file"/>
+</menu>
