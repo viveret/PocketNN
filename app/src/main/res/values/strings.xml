@@ -193,4 +193,6 @@ You can e-mail me at <a href="mailto:viveret.amant.official@gmail.com">viveret.a
     <string name="title_learn_more_about_app">Pocket N² - About this App</string>
     <string name="title_learn_more_about_ml">Pocket N² - Learn About ML</string>
     <string name="msg_no_items">No items in directory</string>
+    <string name="action_contribute">Contribute on GitHub (https://github.com/viveret/PocketNN)</string>
+    <string name="contribute_url">https://github.com/viveret/PocketNN</string>
 </resources>

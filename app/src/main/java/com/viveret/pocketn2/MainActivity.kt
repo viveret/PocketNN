@@ -8,14 +8,12 @@ import android.text.Html
 import android.widget.EditText
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import androidx.fragment.app.FragmentManager
 import com.viveret.pocketn2.async.MenuItemSelectedListener
 import com.viveret.pocketn2.databinding.ActivityMainBinding
 import com.viveret.pocketn2.view.HasTitle
 import com.viveret.pocketn2.view.activities.ChallengeActivity
 import com.viveret.pocketn2.view.activities.SandboxActivity
 import com.viveret.pocketn2.view.dialog.WhatsNewDialog
-import com.viveret.pocketn2.view.fragments.challenge.ChallengeFragment
 import com.viveret.pocketn2.view.fragments.challenge.ChallengeListFragment
 import com.viveret.pocketn2.view.fragments.main.*
 import com.viveret.tinydnn.data.challenge.ChallengeMetaInfo
@@ -122,6 +120,12 @@ class MainActivity : AppCompatActivity(), OnItemSelectedListener, MenuItemSelect
                 frag = LearnMoreFragment.newInstance(aboutMl, R.string.title_learn_more_about_ml)
             }
             R.id.btnSettings -> frag = PrefsFragment.newInstance()
+            R.id.btnContribute -> {
+                val uri = Uri.parse(getString(R.string.contribute_url))
+                val intent = Intent(Intent.ACTION_VIEW, uri)
+                startActivity(intent)
+                return true
+            }
             else -> return false
         }
 
